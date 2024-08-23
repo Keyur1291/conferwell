@@ -13,6 +13,11 @@
 
 }
 
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -77,4 +82,18 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* CLERK */
+.cl-providerIcon__github {
+  filter: invert(1);
+}
+
+.cl-formButtonPrimary {
+  background: #8E60F0;
+  isolation: unset;
+}
+
+.cl-footer {
+  background: #1C1F2E;
 }

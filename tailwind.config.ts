@@ -21,10 +21,12 @@ const config = {
       colors: {
         dark: {
           1: '#1C1F2E',
-          2: '#242526',
-          3: '#3a3b3c'
+          2: '#1C1F2E',
+          3: '#8E60F0',
         },
-
+        purple: {
+          1: '#8E60F095'
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -63,6 +65,9 @@ const config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        hero: "url('/images/hero-background.png')"
       },
       keyframes: {
         "accordion-down": {
