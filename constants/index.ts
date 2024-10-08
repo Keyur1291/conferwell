@@ -25,3 +25,11 @@
         imgUrl: '/icons/add-personal.svg',
     } 
 ]
+
+export const avatarImages = [
+    '/images/avatar-1.jpg',
+    '/images/avatar-2.png',
+    '/images/avatar-3.jpeg',
+    '/images/avatar-4.png',
+    '/images/avatar-5.png',
+  ];

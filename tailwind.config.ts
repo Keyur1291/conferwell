@@ -23,9 +23,26 @@ const config = {
           1: '#1C1F2E',
           2: '#1C1F2E',
           3: '#8E60F0',
+          4: '#8E60F010'
         },
         purple: {
-          1: '#8E60F095'
+          1: '#8E60F095',
+          2: '#830EF9',
+          3: '#8E60F0'
+        },
+        orange: {
+          1: '#FF742E'
+        },
+        sky :{
+          1: '#C9DDFF',
+          2: '#ECF0FF',
+          3: '#F5FCFF'
+        },
+        yellow :{
+          1: '#F9A90E'
+        },
+        blue: {
+          1: '#0E78F9'
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -1,6 +1,15 @@
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
 import React, { Children, ReactNode } from 'react'
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "ConferWell",
+    description: "A video confernce Website",
+    icons: {
+      icon: '/icons/logo.svg'
+    }
+  };
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
     return (
